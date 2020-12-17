@@ -1,0 +1,75 @@
+<!doctype html>
+<html lan="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="index.css">
+	<title>Portfolio</title>
+	</head>
+	<body>
+		<nav>
+	<input id="toggle" type="checkbox">
+	<div class="logo"><a href="#section1">Portfolio</a></div>
+	<ul class="menu">
+		<li><a href="#section1">Home</a></li>
+		<li><a href="#section2">About</a></li>
+		<li><a href="#section3">Skills</a></li>
+		<li><a href="#section4">Contact</a></li>
+	</ul>
+	<label for="toggle" class="toggle-bar">
+		<div class="bar"></div>
+		<div class="bar"></div>
+		<div class="bar"></div>
+	</label>
+</nav>
+	<div class="container" id="section1">
+	<img src="Images/main_img.jpg" alt="main image">
+	<div class="txt1">Hello, My name is</div>
+	<div class="txt2">Simranjeet Kaur</div>
+	<div class="txt3">I'm <span>Web designer</span> and <span>developer</span></div>
+		</div>
+		<div class="container2" id="section2">
+			<div class="txt">About me</div>
+			<img src="Images/main_img.jpg" alt="main image">
+					<div class="about">I am Simranjeet Kaur.I am Web designer and Web Developer.I am energetic,prgressive person who has developed a mature and responsible approach to to do any task in any situation.I am excellent in working with other and with team to achieve a certain tasks on time. </div>
+			<button class="btn"><a href="resume.pdf">Download CV</a></button>
+		</div>
+		<div class="container3" id="section3">
+			<div class="skills">Skills</div>
+			<img src="Images/skills.jpg" alt="skills-image">
+			<div class="html">HTML
+				<div class="con"><div class="percent">95%</div></div>
+			</div>
+			<div class="css">CSS
+			<div class="con1"><div class="percent1">90%</div>
+			</div>
+			</div>
+			
+			<div class="langu">SQL
+			<div class="con2"><div class="percent2">85%</div>
+			</div>
+			</div>
+			<div class="javascript">JavaScript
+			<div class="con3"><div class="percent3">70%</div>
+			</div>
+			</div>
+			
+		</div>
+		<div class="container4" id="section4">
+			<div class="txt">Contact</div>
+			<form action="contact.php" method="post">
+				<input type="text" name="name" placeholder="Name"><br>
+				<input type="text" name="email" placeholder="Email"><br>
+				<textarea name="message" placeholder="Messsage" row="10" cols="80"></textarea><br>
+				<input type="submit" class="btn1" value="Send">
+			</form>
+		
+			
+
+		</div>
+		<footer>
+		<div>Created by Simranjeet Kaur</div>
+		</footer>
+	</body>
+</html>
